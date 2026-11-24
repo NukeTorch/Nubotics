@@ -1,0 +1,27 @@
+[project]
+name = "nubotics"
+version = "0.1.0"
+description = "Client and integrations for Nubotics, a robot policy that runs on NukeTorch"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.9"
+dependencies = ["numpy", "opencv-python-headless", "tokenizers", "safetensors"]
+
+[project.optional-dependencies]
+gr00t = ["pyzmq", "msgpack", "msgpack-numpy"]
+
+[project.scripts]
+nubotics = "nubotics.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/NukeTorch/Nubotics"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+nubotics = ["embodiments/*.json"]

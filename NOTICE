@@ -1,0 +1,13 @@
+Nubotics client and integrations
+Copyright 2026 NukeTorch
+
+The code in this repository is licensed under the Apache License, Version 2.0 (LICENSE).
+It calls NukeTorch, which is distributed separately under its own license:
+https://github.com/NukeTorch/nuketorch/blob/1.0.5/LICENSE.md
+
+The Nubotics model files are distributed separately (https://huggingface.co/NukeTorch/Nubotics) with their own
+license files. They include NVIDIA's GR00T N1.7 files:
+
+Licensed by NVIDIA Corporation under the NVIDIA Open Model License
+
+Built on NVIDIA Cosmos

@@ -1,0 +1,9 @@
+{
+ "embodiment_tag": "libero_sim",
+ "note": "The data contract of NVIDIA Isaac-GR00T's LIBERO_PANDA embodiment (gr00t/configs/data/embodiment_configs.py \"libero_sim\" and examples/LIBERO/modality.json at commit 3b49067943eb1ab2eb2203b93d461c4390c78da3). state and action: key -> [start, end) in the checkpoint's vectors.",
+ "video": ["image", "wrist_image"],
+ "state": {"x": [0, 1], "y": [1, 2], "z": [2, 3], "roll": [3, 4], "pitch": [4, 5], "yaw": [5, 6], "gripper": [6, 8]},
+ "action": {"x": [0, 1], "y": [1, 2], "z": [2, 3], "roll": [3, 4], "pitch": [4, 5], "yaw": [5, 6], "gripper": [6, 7]},
+ "language": "annotation.human.action.task_description",
+ "action_horizon": 16
+}
