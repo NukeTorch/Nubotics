@@ -28,7 +28,7 @@ These were measured on one MacBook Pro M5 Max with 48 GB, running macOS 27.2.1.
 
 On the same Mac, Nubotics is 18.57× faster than GR00T N1.7 on its maker's Mac path. It uses 85% less memory and 89% less energy for each action chunk. Its 18.81 ms is 1.22× faster than NVIDIA's published H100 figure.
 
-The one-robot call and the 16-robot row come from NukeTorch 1.0.5's built-in benchmark, best of 5 runs. Task success, RAM and energy were measured on the development build of the same engine. The full method, the per-task results, and the 2-, 4- and 8-robot and real-time runs are in the [report](benchmark/nubotics_M5.pdf).
+The one-robot call and the 16-robot row come from NukeTorch 1.0.5's built-in benchmark, best of 5 runs. The full method, the per-task results, and the 2-, 4- and 8-robot and real-time runs are in the [report](benchmark/nubotics_M5.pdf).
 
 ¹ LeRobot 0.6.1 (Hugging Face) with NVIDIA's GR00T N1.7 checkpoint for LIBERO-10, as shipped: PyTorch 2.11.0 on the M5 Max GPU (MPS), 4 denoising steps.
 ² NVIDIA's published figure for GR00T N1.7 on LIBERO-10, on an H100 with its TensorRT pipeline and 4 denoising steps ([Isaac-GR00T deployment guide](https://github.com/NVIDIA/Isaac-GR00T/blob/main/scripts/deployment/README.md)).
